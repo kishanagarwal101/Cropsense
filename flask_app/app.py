@@ -73,6 +73,7 @@ def crop_prediction():
     title = 'CropSense - Crop Recommendation'
 
     if request.method == 'GET':
+        print(request.args)
         N = int(request.args.get('N'))
         P = int(request.args.get('P'))
         K = int(request.args.get('K'))
