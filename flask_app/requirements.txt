@@ -1,0 +1,6 @@
+numpy
+pickle
+pandas
+flask
+flask_cors
+requests
